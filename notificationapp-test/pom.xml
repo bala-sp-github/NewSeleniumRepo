@@ -38,6 +38,7 @@
                 <suiteXmlFiles>
                 <suiteXmlFile>testNG.xml</suiteXmlFile>
                 </suiteXmlFiles>
+                <maven.test.skip>true</maven.test.skip>
                 </configuration>
             </plugin>
         </plugins>
