@@ -15,7 +15,7 @@ public class notificationappTest {
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("http://172.17.0.2:8080/notificationapp/");
+		driver.get("http://localhost:8090/notificationapp-1/devices");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
   @Test
